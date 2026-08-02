@@ -11,7 +11,7 @@ continuous carbon emissions on a 1 km grid from seven freely available
 satellite and infrastructure proxies — evaluated under a strict,
 leakage-controlled protocol.
 
-> 🏆 **Best Poster Award**, Climate AI Workshop.
+> 🏆 **Best Poster Award**, ICCJ (International Conference on Climate Justice).
 
 ---
 
@@ -229,8 +229,7 @@ If you use this work, please cite:
   author = {Seo, Subin and Lee, Jewon and Payyapilly, Rhea Tess and Mathew, George K.},
   title  = {MS-CA: Continuous Carbon Emission Prediction Using Satellite Proxy Data},
   year   = {2026},
-  note   = {Best Poster Award, Climate AI Workshop},
-  howpublished = {\url{https://github.com/<user>/msca-carbon}}
+  note   = {Best Poster Award,ICCJ (International Conference on Climate Justice)},
 }
 ```
 
