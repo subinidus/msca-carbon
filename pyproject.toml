@@ -1,0 +1,24 @@
+[project]
+name = "msca-carbon"
+version = "1.0.0"
+description = "MS-CA: Continuous carbon-emission prediction from satellite proxies via a multi-stream cross-attention Vision Transformer, under leakage-controlled evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Subin Seo" }]
+
+[tool.ruff]
+line-length = 99
+target-version = "py310"
+
+[tool.ruff.lint]
+# Sensible defaults plus import sorting, pyupgrade, bugbear, and comprehensions.
+select = ["E", "F", "I", "UP", "B", "C4", "SIM", "RUF"]
+ignore = [
+    "E741",   # ambiguous variable names (e.g. single-letter math symbols)
+    "B905",   # zip() without strict= (kept for 3.9 back-compat readability)
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Long, self-documenting argparse help strings and printed banners are fine.
+"train.py" = ["E501"]

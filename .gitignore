@@ -1,0 +1,31 @@
+# Data & model artifacts (never commit large binaries)
+data/
+*.npz
+checkpoints/
+outputs/
+*.pth
+*.pt
+
+# Generated figures & reports
+figures/*.png
+figures/*.pdf
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Tooling
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+wandb/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

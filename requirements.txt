@@ -1,0 +1,17 @@
+# Core deep-learning stack
+torch>=2.1
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+tqdm>=4.65
+
+# Visualization
+matplotlib>=3.7
+
+# Optional: stronger gradient-boosting baseline (B3). If absent, the pipeline
+# automatically falls back to sklearn's HistGradientBoostingRegressor.
+lightgbm>=4.0 ; platform_system != "Darwin" or platform_machine != "arm64"
+
+# Optional: experiment tracking. Training runs fine without it via --disable_wandb.
+wandb>=0.16
